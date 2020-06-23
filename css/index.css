@@ -1,14 +1,36 @@
 body {
   background-color: #2c3e50;
 }
-
 .btn {
   cursor: pointer;
 }
-body {
-  color: #34495e;
+.main {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 50px;
 }
 
+.main input {
+  width: 500px;
+  height: 50px;
+  font-size: 30px;
+}
+body {
+  color: white;
+}
+.main ul {
+  margin-left: 40%;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+}
+
+input::placeholder {
+  font-style: italic;
+  font-size: 30px;
+}
 .clicked {
   color: #7f8c8d;
 }
@@ -22,6 +44,9 @@ body {
   display: block;
 }
 
+.js-toDoList {
+  list-style: none;
+}
 @keyframes fadeIn {
   from {
     opacity: 0;
